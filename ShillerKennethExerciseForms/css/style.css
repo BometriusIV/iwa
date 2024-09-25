@@ -1,0 +1,110 @@
+/* Alternative CSS box model */
+* {
+  box-sizing: border-box;
+}
+/* General Style */
+body {
+  font-family: "Glegoo", serif;
+  font-size: 1.25rem;
+  background-color: rgb(8, 8, 49);
+}
+/* Header flexbox Style */
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Wrapper Style */
+#wrapper {
+  width: 95%;
+  margin: auto;
+  background-color: rgb(83, 83, 231);
+  border: 8px solid rgb(83, 83, 231);
+  border-radius: 2%;
+}
+
+/* Header 1 and 2 Style */
+h1,
+h2 {
+  text-align: center;
+  line-height: 3rem;
+  color: rgb(240, 255, 255);
+  text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+/* Centered Image with box model properties */
+img {
+  display: block;
+  margin: auto;
+  background-color: rgb(8, 8, 49);
+  border: 0.25rem solid rgb(255, 255, 255);
+  border-radius: 8%;
+  padding: 0.75rem;
+}
+
+/* Unordered List Style with flexbox */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+}
+
+/* Link Style */
+a {
+  text-decoration: none;
+  color: rgb(255, 228, 196);
+}
+a:hover {
+  color: rgb(9, 90, 6);
+}
+
+/* Form Style */
+form {
+  padding: 1rem;
+}
+
+form > div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-family: inherit;
+  font-size: 80%;
+  border: 2px solid black;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid black;
+}
+
+#signup > label {
+  display: inline-block;
+}
+
+form > button {
+  background-color: rgb(116, 6, 6);
+  color: ghostwhite;
+  border: none;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(231, 24, 24);
+}
