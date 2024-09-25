@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CSS properties" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- external style sheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CSS Properties</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <form>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div id="form-check">
+            <input type="checkbox" id="stay" />
+            <label for="stay">Stay Logged In</label>
+          </div>
+
+          <button type="submit">Login</button>
+        </form>
+        <h1>Bill's Bookstore</h1>
+
+        <nav>
+          <ul>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#shop"> Shop</a></li>
+            <li><a href="#"> Contact</a></li>
+            <li><a href="#"> Cart</a></li>
+            <li><a href="#"> Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Step 4</li>
+          </ol>
+          <p>
+            <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing
+            elit. Natus, vel illum? Corrupti vitae velit mollitia laborum quas
+            repudiandae <em>laudantium</em> nostrum autem, doloremque eligendi
+            reprehenderit eveniet quos sunt et officiis animi non nesciunt iusto
+            suscipit modi est? A mollitia enim eos corporis laborum iste ab
+            sunt, quibusdam tenetur iure sed nesciunt.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="about-heading" id="about">About</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos
+            laudantium distinctio eos maiores molestiae sapiente accusamus
+            illum, commodi similique corporis possimus sit ipsa! Praesentium nam
+            quidem tempora sapiente mollitia voluptates amet excepturi, quia
+            earum fuga vitae sequi, aliquam magnam iure minus quas, perferendis
+            voluptate vel perspiciatis esse sunt iste? Cupiditate fugit officiis
+            aliquid ad maiores illum adipisci commodi vitae maxime consectetur.
+            Veritatis voluptates ad exercitationem repudiandae dolorem dolores
+            distinctio illum? Consectetur, obcaecati quisquam consequatur fugiat
+            assumenda magnam eius optio temporibus illum vel adipisci pariatur
+            molestiae earum atque tempora eum excepturi odit. Aliquam,
+            dignissimos. Aspernatur laboriosam animi impedit. Ea, asperiores
+            sunt assumenda ut numquam earum fuga voluptatum, rerum perspiciatis
+            facere accusantium est. Exercitationem, facere blanditiis nam iste,
+            cumque quo id hic ad est ex dolorum porro animi atque deserunt
+            asperiores esse illo at? Itaque ipsa error nam repellendus ullam
+            quis porro a quas voluptatibus molestiae eligendi illo, corporis
+            quisquam inventore?
+          </p>
+        </section>
+
+        <section>
+          <h2 id="shop">Shop</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos
+            laudantium distinctio eos maiores molestiae sapiente accusamus
+            illum, commodi similique corporis possimus sit ipsa! Praesentium nam
+            quidem tempora sapiente mollitia voluptates amet excepturi, quia
+            earum fuga vitae sequi, aliquam magnam iure minus quas, perferendis
+            voluptate vel perspiciatis esse sunt iste? Cupiditate fugit officiis
+            aliquid ad maiores illum adipisci commodi vitae maxime consectetur.
+            Veritatis voluptates ad exercitationem repudiandae dolorem dolores
+            distinctio illum? Consectetur, obcaecati quisquam consequatur fugiat
+            assumenda magnam eius optio temporibus illum vel adipisci pariatur
+            molestiae earum atque tempora eum excepturi odit. Aliquam,
+            dignissimos. Aspernatur laboriosam animi impedit. Ea, asperiores
+            sunt assumenda ut numquam earum fuga voluptatum, rerum perspiciatis
+            facere accusantium est. Exercitationem, facere blanditiis nam iste,
+            cumque quo id hic ad est ex dolorum porro animi atque deserunt
+            asperiores esse illo at? Itaque ipsa error nam repellendus ullam
+            quis porro a quas voluptatibus molestiae eligendi illo, corporis
+            quisquam inventore?
+          </p>
+        </section>
+
+        <section>
+          <h2 id="contact">Contact</h2>
+          <form action="">
+            <div>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" required />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" id="age" min="1" max="99" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                name=""
+                id="message"
+                cols="30"
+                rows="10"
+                required
+                minlength="20"
+                maxlength="200"
+              ></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright Bill's Bookstore</p>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

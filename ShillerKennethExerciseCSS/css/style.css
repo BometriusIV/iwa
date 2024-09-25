@@ -1,0 +1,49 @@
+/* Alternative CSS box model */
+* {
+  box-sizing: border-box;
+}
+/* General Style */
+body {
+  font-family: "Glegoo", serif;
+  font-size: 1.25rem;
+  background-color: rgb(8, 8, 49);
+}
+
+/* Wrapper Style */
+#wrapper {
+  width: 95%;
+  margin: auto;
+  background-color: rgb(83, 83, 231);
+  border: 10px solid rgb(83, 83, 231);
+}
+
+/* Header 1 and 2 Style */
+h1,
+h2 {
+  text-align: center;
+  line-height: 3rem;
+  color: rgb(240, 255, 255);
+  text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+/* Centered Image with box model properties */
+img {
+  display: block;
+  margin: auto;
+  background-color: rgb(8, 8, 49);
+  border: 0.25rem solid rgb(255, 255, 255);
+  border-radius: 8%;
+  padding: 0.75rem;
+}
+
+/* Unordered List Style */
+ul {
+  list-style: none;
+}
+/* Link Style */
+a {
+  text-decoration: none;
+  color: rgb(255, 228, 196);
+}
+a:hover {
+  color: rgb(9, 90, 6);
+}

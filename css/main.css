@@ -1,0 +1,126 @@
+/* alternative CSS box model */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: 0rem;
+}
+
+#wrapper {
+  width: 90%;
+  border: 5px solid olive;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #3ea8bb;
+  width: 18.75rem;
+  background-color: burlywood;
+  padding: 1.25rem;
+  border: 5px solid firebrick;
+  margin: 1.25rem auto;
+  box-shadow: 15px 15px orange;
+  text-shadow: 2px 2px 5px rgb(4, 4, 129);
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Kalnia", serif;
+  color: antiquewhite;
+  background-color: #3ea8bb;
+}
+
+.about-heading {
+  color: brown;
+}
+
+p {
+  line-height: 1.25;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0rem;
+  border: 4px solid goldenrod;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+}
+
+ol {
+  list-style: upper-alpha;
+}
+
+li {
+  border: 2px solid firebrick;
+  flex: 1;
+}
+
+/* form styles */
+form {
+  border: 2px solid darkred;
+  padding: 1rem;
+  background-color: blanchedalmond;
+}
+
+form > div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-family: inherit;
+  font-size: 100%;
+  border: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+#form-check > label {
+  display: inline-block;
+}
+
+input[type="number"] {
+  width: 15%;
+}
+
+form > button {
+  background-color: cornflowerblue;
+  color: ghostwhite;
+  border: none;
+  padding: 0.375rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: skyblue;
+}
